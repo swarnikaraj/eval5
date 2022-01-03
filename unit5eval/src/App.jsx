@@ -12,19 +12,22 @@ import { Descrip } from './components/des';
 const Parentdiv=styled.div`
 width:1200px;
 display:flex;
-border:2px solid green;
+border:2px solid #362222;
 
 &>div{
   margin:10px;
   width:450px;
-  border:2px solid green;
+  border:2px solid #362222;
   overflow-y: scroll;
+  background:#FFCCD2;
+  
 }
 
 & >div> div {
   width:300px;
+  background:#B3541E;
   height:70px;
-  border:2px solid green;
+  border:2px solid #362222;
   margin:1px;
   padding:5px;
   cursor:pointer;
