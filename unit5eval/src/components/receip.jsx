@@ -7,7 +7,8 @@ export const Receip=()=>{
 
     function sorthandle(){
 
-      let arr= items.sort(function(a,b){return b.time - a.time})
+      let arr= items.sort(function(a,b){return Number(b.time) - Number(a.time)})
+      console.log(arr)
       setItems(arr)
             
     }
